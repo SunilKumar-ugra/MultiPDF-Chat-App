@@ -27,21 +27,6 @@ The application follows these steps to provide responses to your questions:
 
 5. Response Generation: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
 
-## Dependencies and Installation
-----------------------------
-To install the MultiPDF Chat App, please follow these steps:
-
-1. Clone the repository to your local machine.
-
-2. Install the required dependencies by running the following command:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Obtain an API key from OpenAI and add it to the `.env` file in the project directory.
-```commandline
-OPENAI_API_KEY=your_secrit_api_key
-```
 
 ## Usage
 -----
@@ -60,13 +45,13 @@ To use the MultiPDF Chat App, follow these steps:
 
 5. Ask questions in natural language about the loaded PDFs using the chat interface.
 
-# How to run?
+## Dependencies and Installation
 ### STEPS:
 
 Clone the repository
 
 ```bash
-https://github.com/SunilKumar-ugra/LLAMA2-Medical-Chatbot.git
+git clone https://github.com/SunilKumar-ugra/MultiPDF-Chat-App.git
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -83,7 +68,19 @@ conda activate chat_multi_pdf
 ```bash
 pip install -r requirements.txt
 ```
-### STEP 03-  Run the command    
+
+### STEP 03-  Create filename .env 
+Goto [huggingface site](https://huggingface.co/settings/tokens)
+
+Generate new tokens with write permissions
+
+Add Generated tokens to .env file using the below format
+
+```
+HUGGINGFACEHUB_API_TOKEN=your_secret_huggingfacehub_api_key
+``` 
+
+### STEP 04-  Run the command    
 ```bash 
 # Finally run the following command
 streamlit run app.py
