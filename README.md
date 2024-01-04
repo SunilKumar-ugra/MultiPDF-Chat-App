@@ -8,8 +8,12 @@ The MultiPDF Chat App is a Python application that allows you to chat with multi
 
 ## How It Works
 ------------
+![PDF-LangChain](https://github.com/SunilKumar-ugra/MultiPDF-Chat-App/assets/45965583/652bd3d6-a678-40f3-9288-dfb253c3d1b4)
 
-![MultiPDF Chat App Diagram]
+
+
+
+
 
 The application follows these steps to provide responses to your questions:
 
@@ -89,7 +93,6 @@ Now,
 ```bash
 http://localhost:8501 #Open this url in the browser
 ```
+## Demo
+https://github.com/SunilKumar-ugra/MultiPDF-Chat-App/assets/45965583/db7c25d0-c484-41bc-9776-839d46d802ea
 
-## License
--------
-The MultiPDF Chat App is released under the [MIT License](https://opensource.org/licenses/MIT).
