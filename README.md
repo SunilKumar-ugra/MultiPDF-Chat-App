@@ -95,6 +95,4 @@ http://localhost:8501 #Open this url in the browser
 ```
 ## Demo
 https://github.com/SunilKumar-ugra/MultiPDF-Chat-App/assets/45965583/db7c25d0-c484-41bc-9776-839d46d802ea
-## License
--------
-The MultiPDF Chat App is released under the [MIT License](https://opensource.org/licenses/MIT).
+
